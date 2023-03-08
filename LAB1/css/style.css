@@ -26,3 +26,24 @@ header{
     margin-top: 5px;
     letter-spacing: 0.5px;
 }
+
+.poly-cart{
+    margin-top: 5px;
+    margin-left: 15px;
+
+}
+
+.poly-cart ul{
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0;
+}
+.poly-cart img{
+    width: 70px;
+    margin-left: 15px;
+}
+
+.poly-cart input{
+    margin-left: 5px;
+    width: 250px;
+}
