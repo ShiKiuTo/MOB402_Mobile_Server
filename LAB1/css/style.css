@@ -50,5 +50,8 @@ header{
 
 .poly-show{
     margin-top: 5px;
-    margin-left: 15px;
+    margin-left: -15px;
+    margin-right: -40px;
 }
+
+
