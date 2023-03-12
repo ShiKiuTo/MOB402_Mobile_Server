@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" id="navId">
+            <li class="nav-item">
+                <a href="#tab1Id" class="nav-link active" data-toggle="tab">Thông tin</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#tab2Id" class="nav-link" data-toggle="tab">Danh Sách</a>
+            </li>
+
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="tab1Id" role="tabpanel">
+                <div class="card poly-cart" style="margin-top: 5px">
+                    <div class="card-header" style="">
+                        Nhập lương tháng 12
+                    </div>
+                    <action action="#">
+                        <div class="row" style="margin: 5px;">
+                            <div class="form-group col-sm-6">
+                                <label for="">Mã nhân viên</label>
+                                <input tyle="text" class="form-control" placeholder="Mã nhân viên" />
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label for="">Tên nhân viên</label>
+                                <input tyle="text" class="form-control" placeholder="Tên nhân viên" />
+                            </div>
+                        </div>
+                        <div class="row" style="margin: 5px;">
+                            <div class="form-group col-sm-6">
+                                <label for="">Câu lạc bộ</label>
+                                <select name="" id="" class="form-control">
+                                    <option value="">Ha Noi</option>
+                                    <option value="">Da Nang</option>
+                                    <option value="">HCM</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group col-sm-6">
+                                <label for="">Thưởng</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">$</span>
+                                    </div>
+                                    <input class="form-control" type="text" name="" placeholder="Thưởng"
+                                        aria-label="Recipient's text" aria-describedby="my-addon">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text">.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="margin: 5px;">
+
+                            <div class="form-group col-sm-6">
+                                <label for="">Phụ cấp</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">$</span>
+                                    </div>
+                                    <input class="form-control" type="text" name="" placeholder="Phụ Cấp"
+                                        aria-label="Recipient's text" aria-describedby="my-addon">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text">.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="">Lương</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">$</span>
+                                </div>
+                                <input class="form-control" type="text" name="" placeholder="Lương"
+                                    aria-label="Recipient's text" aria-describedby="my-addon">
+                                <div class="input-group-append">
+                                    <span class="input-group-text">.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="row" style="margin: 5px;">
+                                <div class="form-group col-sm-12">
+                                    <label for="">Ghi chú</label>
+                                    <textarea class="form-control" name="" id="" rows="4"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </action>
+
+                    <div class="" style="margin: 5px;">
+                        <div class="form-group col-sm-12" style="font-size: 15px;">
+                            <button type="submit" class="btn btn-primary">Lưu</button>
+                            <button type="reset" class="btn btn-primary">Huỷ</button>
+                        </div>
+                    </div>
+                    </form>
+                    <div class="card-footer">
+                        Vui lòng nhập thông tin cầu thủ
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="tab2Id" role="tabpanel">
+                <div class="card">
+                    <div class="card-header"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                        Bảng lương Tháng 12
+                    </div>
+                    <table class="table table-bordered">
+                        <thead class="text-center">
+                            <tr>
+                                <th rowspan="2">Mã NV</th>
+                                <th rowspan="2">Họ và Tên</th>
+                                <th colspan="3">Thu Nhập</th>
+                            </tr>
+                            <tr>
+                                <th>Lương</th>
+                                <th>Thưởng</th>
+                                <th>Phụ Cấp</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>NV100</td>
+                                <td>Nguyễn Công Phượng</td>
+                                <td>5000000</td>
+                                <td>50000</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td>NV102</td>
+                                <td>Phan Văn Tài Em</td>
+                                <td>9000000</td>
+                                <td>60000</td>
+                                <td>10000</td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td>NV103</td>
+                                <td>Lê Huỳnh Đức</td>
+                                <td>3000000</td>
+                                <td>30000</td>
+                                <td>20000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="card-footer">
+                        Lương của cầu thủ huấn luyện viên chuyên nghiệp
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
