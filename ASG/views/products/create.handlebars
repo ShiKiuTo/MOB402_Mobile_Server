@@ -1,0 +1,24 @@
+<h5 class="card-title">Thêm sản phẩm</h5>
+<a type="button" class="btn btn-primary mt-3 mb-3" href="/admin/products/">Danh sách</a>
+<form action="/admin/products/create" method="post" enctype="multipart/form-data">
+  <div class="mb-3">
+    <label for="name" class="form-label">Tên sản phẩm</label>
+    <input type="text" class="form-control" id="name" name="name" required>
+  </div>
+  <div class="mb-3">
+    <label for="price" class="form-label">Đơn giá</label>
+    <input type="number" class="form-control" id="price" name="price" required>
+  </div>
+  <div class="mb-3">
+    <label for="image" class="form-label">Ảnh</label>
+    <input type="file" class="form-control" id="image" name="image">
+  </div>
+  <div class="mb-3">
+    <label for="color" class="form-label">Màu sắc</label>
+    <input type="text" class="form-control" id="color" name="color">
+  </div>
+ 
+  
+  
+  <button type="submit" class="btn btn-primary">Thêm</button>
+</form>
