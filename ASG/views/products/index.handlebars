@@ -45,4 +45,10 @@
       }
     });
   });
+  $(document).ready(function () {
+      $('td:nth-child(5)').each(function() {
+          var color = $(this).text();
+          $(this).html('<div style="color: #000;">' + color + '</div><div style="background-color: ' + color + '; width: 100px; height: 20px;"></div>');
+      });
+  });
 </script>
