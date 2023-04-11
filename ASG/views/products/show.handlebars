@@ -1,0 +1,67 @@
+<%- include('../inc/top') %>
+
+<h5 class="card-title">Quản lí sản phẩm</h5>
+<a type="button" class="btn btn-primary mt-3 mb-3" href="/admin/products/create">Sản phẩm</a>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="col-12">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle bg-dark-subtle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Sort
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/products/pricetang">Giá thấp - cao</a></li>
+                        <li><a class="dropdown-item" href="/products/pricegiam">Giá cao - thấp</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle bg-dark-subtle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Filter
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/products/dienthoai">#</a></li>
+                        <li><a class="dropdown-item" href="/products/maytinh">#</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">Tên sản phẩm</th>
+        <th scope="col">Đơn giá</th>
+        <th scope="col">Hình ảnh</th>
+        <th scope="col">Màu sắc</th>
+
+        <th scope="col">Hành động</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each products}}
+        <tr>
+            <th scope="row">{{inc @index}}</th>
+            <td>{{this.name}}</td>
+            <td>{{this.price}}</td>
+            <td><img src="{{this.image}}" width="80" alt=""></td>
+            <td>{{this.color}}</td>
+
+            <td>
+                <a type="button" class="btn btn-primary mt-3 mb-3" href="/admin/products/update/{{this._id}}">Sửa</a>
+                <button type="button" class="btn btn-danger mt-3 mb-3 delete-btn" data-id="{{this._id}}">Xóa</button>
+            </td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>
+
+<form name="delete-form" method="post"></form>
+
+<script src="#"></script>
+
+<script></script> <!-- Include the rest of your script here -->

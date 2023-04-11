@@ -18,7 +18,7 @@ exports.create = (req, res) => {
     res.render('products/create', { layout: "main", page: "products" });
 }
 
-// SET STORAGE
+// SET STORAGEduct
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
 
@@ -138,3 +138,6 @@ exports.save = async (req, res) => {
         }
     });
 }
+
+
+ex

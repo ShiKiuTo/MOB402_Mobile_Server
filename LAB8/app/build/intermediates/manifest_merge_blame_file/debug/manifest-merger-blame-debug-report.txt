@@ -1,0 +1,60 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.lab8"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml:7:5-79
+12-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml:7:22-76
+13
+14    <application
+14-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml:8:5-26:19
+15        android:allowBackup="true"
+15-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+16-->[com.android.support:support-compat:28.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\0b22a6b07b3e498281e2fdb9d93c9c6b\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+17        android:dataExtractionRules="@xml/data_extraction_rules"
+17-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml:10:9-65
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:fullBackupContent="@xml/backup_rules"
+20-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml:11:9-54
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml:12:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml:13:9-41
+23        android:supportsRtl="true"
+23-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml:14:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.LAB8" >
+25-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml:15:9-42
+26        <activity
+26-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml:17:9-25:20
+27            android:name="com.example.lab8.MainActivity"
+27-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml:18:13-41
+28            android:exported="true" >
+28-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml:19:13-36
+29            <intent-filter>
+29-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml:20:13-24:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml:21:17-69
+30-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml:21:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml:23:17-77
+32-->C:\Users\ASUS\Documents\GitHub\Mobile_Server\LAB8\app\src\main\AndroidManifest.xml:23:27-74
+33            </intent-filter>
+34        </activity>
+35    </application>
+36
+37</manifest>
