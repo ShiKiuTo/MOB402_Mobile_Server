@@ -1,0 +1,3 @@
+{"_id":{"$oid":"64337f4f8528e302ce5ce7e5"},"username":"Admin","email":"demo","password":"112233","role":{"$numberInt":"0"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"6433803c8528e302ce5ce7f2"},"username":"anhbana","email":"demo","password":"1122","role":{"$numberInt":"0"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"6434e0c5637ffb6c65e1e2f5"},"username":"demo","email":"dej","password":"112233","role":{"$numberInt":"1"},"__v":{"$numberInt":"0"}}

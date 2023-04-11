@@ -13,4 +13,14 @@ app.post('/user', async (req, res) => {
     }
 });
 
+//getAll
+app.get('/list', async(req, res) => {
+    const users = await userModel.find({});
+    try {
+        res.send(users);
+    } catch (error){
+        res.status(500).send(error);
+    }
+});
+
 module.exports = app;
