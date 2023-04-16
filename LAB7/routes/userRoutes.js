@@ -4,12 +4,13 @@ const app = express();
 
 //add data
 app.post('/user', async (req, res) => {
-    const u = new userModel(req.body);
     try {
+        const u = new userModel(req.body);
         await u.save();
         res.send(u);
     } catch (error) {
-        res.status(500).send(error);
+        console.error(error);
+        res.status(500).send({ message: 'An error occurred while creating the user', error });
     }
 });
 
